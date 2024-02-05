@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resep makanan</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+   
+    <nav>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="home.html"><h1>KuKuliner</h1></a>
+          <a href="list-resep.html">List Resep</a>
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+       
+        <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+        
+        <section>
+        
+            <div id="search-container">
+              <form action="">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+              </form>
+            </div>
+        </section>
+      </nav>
+
+
+   
+
+<div class="foodBlog"> <!--container-->
+
+    <div class="blogCard">
+  <div class="blogCard-header">
+    <img
+      class="blogCard-img"
+      src="/Assets/blogSate.png"/> 
+  </div>
+  
+  <div class="blog-detail">
+    <h1 class="blog-title">
+        Sate ayam
+    </h1>
+    <aside>
+        <h1> Bahan-bahan</h1>
+        <ul>
+            <li>Daging ayam 500 gram</li>
+            <li>Tusuk sate secukupnya</li>
+        </ul>
+        <h1> Bahan untuk marinasi</h1>
+        <ul>
+            <li> 2 siung bawang putih</li>
+            <li> 2 sendok makan kecap manis</li>
+            <li> 1 sendok makan minyak sayur</li>
+            <li> 1 sendok teh garam</li>
+            <li> 1/2 sendok teh merica bubuk</li>
+        </ul>
+        <h1> Bahan bumbu kacang</h1>
+        <ul>
+            <li>150 gram kacang tanah sudah disangrai</li>
+            <li> 2 siung bawang putih</li>
+            <li>2 sendok makan gula merah</li>
+            <li>2 sendok makan minyak sayur</li>
+            <li> 1/2 sendok teh garam</li>
+            <li> cabai merah</li>
+            <li>200 ml santan ketal</li>
+            <li>air secukupnya</li>
+        </ul>
+      </aside>
+    <p class="blog-description">
+      Sate ayam adalah hidangan populer dengan potongan daging ayam tusuk yang dipanggang,
+      Cocok untuk santap ringan atau jajanan jalanan.
+    </p> <br>
+    
+    <h1>Cara pembuatan</h1><br>
+    
+    <p>
+        1.Potong daging ayam menjadi potongan kecil sesuai selera. <br
+        2.Campurkan daging ayam dengan bawang putih, kecap manis, minyak sayur, garam, dan merica.<br> 
+        3.Diamkan selama minimal 30 menit atau lebih baik jika semalam di lemari es. <br>
+        4.Tusukkan potongan daging ayam yang sudah dimarinasi ke dalam tusuk sate yang sudah direndam air.<br>
+        5.Panaskan grill atau panggangan hingga panas. <br>
+        6.Panggang sate ayam sampai matang dan berwarna kecoklatan.<br>
+        7.Sementara sate dipanggang, buat bumbu kacang.<br>
+        8.Haluskan kacang tanah yang sudah disangrai menggunakan food processor atau cobek.<br>
+        9.Tumis bawang putih hingga harum dengan minyak sayur. <br>
+        10.Tambahkan kacang tanah halus, gula merah, terasi (jika digunakan), garam, dan cabai merah. Aduk rata. <br> 
+        11.Tuangkan santan kental dan aduk hingga bumbu merata. <br>
+        12.Jika terlalu kental, tambahkan sedikit air. Masak bumbu kacang hingga mengental dan berminyak. <br>
+        13.Jangan lupa untuk terus diaduk agar tidak gosong. <br>
+        14.Sate ayam bumbu kacang siap disajikan. <br>
+     </p>
+  </div>
+</div>
+
+</body>
+<script>
+/* Buka sidebar*/
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Nutup sidebar */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</html>

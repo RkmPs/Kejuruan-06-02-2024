@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>KuKuliner</title>
+      <link rel="stylesheet" type="text/css" href="./style.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+            <nav>
+
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="home.html"><h1>KuKuliner</h1></a>
+                <a href="list-resep.html">List Resep</a>
+                <a href="#">Services</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+              </div>
+             
+              <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+              
+              <section>
+              
+                  <div id="search-container">
+                    <form action="">
+                      <input type="text" placeholder="Search.." name="search">
+                      <button type="submit">Search</button>
+                    </form>
+                  </div>
+              </section>
+            </nav>
+
+            <div class="container">
+
+                <div class="content1">
+                    <a href="Soon.html" class="content-image1">
+                       <img src="/Assets/Klepon.png">
+                    </a>
+                </div>
+
+                <div class="content2">
+                  <a href="Soon.html" class="content-image2">
+                      <img src="/Assets/Daifuku.png">
+                  </a>
+              </div>
+
+              <div class="content3">
+                <a href="sate.html" class="content-image3">
+                    <picture><img src="/Assets/SateAyam.png"</picture>
+                </a>
+            </div>
+
+            <div class="content4">
+              <a href="soto.html" class="content-image4">
+                  <picture><img src="/Assets/SotoAyam.png"</picture>
+              </a>
+          </div>
+
+          <div class="content5">
+            <a href="Soon.html" class="content-image5">
+                <picture><img src="/Assets/SambalKentang.png"</picture>
+            </a>
+        </div>
+
+        <div class="content6">
+          <a href="Soon.html" class="content-image6">
+              <picture><img src="/Assets/GurameBakar.png"</picture>
+          </a>
+      </div>
+
+      <div class="content7">
+        <a href="Soon.html" class="content-image7">
+            <picture><img src="/Assets/BubbleTea.png"</picture>
+        </a>
+    </div>
+         
+    <div class="content8">
+      <a href="Soon.html" class="content-image8">
+          <picture><img src="/Assets/Spaggethi.png"</picture>
+      </a>
+  </div>
+            </div>
+
+    <div class="footer">
+      <ul>
+        <li><a href="https://www.instagram.com/moonahoshinova">| Instagram |</a> </li>
+        <li><a href="https://www.youtube.com/@MoonaHoshinova"> Youtube |</a> </li>
+        <li><a href="https://open.spotify.com/artist/2Iss9rGmxvoEfVigargjTH?si=t-eGxvJeQWehcp8qYCb-gw">Spotify |</a></li>
+      </ul>
+    </div>
+    </body>
+
+    <script>
+      /* Buka sidebar*/
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Nutup sidebar */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+      </script>
+</html>

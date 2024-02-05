@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resep makanan</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+   
+    <nav>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="home.html"><h1>KuKuliner</h1></a>
+          <a href="list-resep.html">List Resep</a>
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+       
+        <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+        
+        <section>
+        
+            <div id="search-container">
+              <form action="">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+              </form>
+            </div>
+        </section>
+      </nav>
+
+
+   
+
+<div class="foodBlog"> <!--container-->
+
+    <div class="blogCard">
+  <div class="blogCard-header">
+    <img
+      class="blogCard-img"
+      src="/Assets/blogSoto.png"/> 
+  </div>
+  
+  <div class="blog-detail">
+    <h1 class="blog-title">
+        Soto ayam
+    </h1>
+    <aside>
+        <h1> Bahan-bahan</h1>
+        <ul>
+            <li>500 gram ayam kampung</li>
+            <li>1.5L air</li>
+            <li>3 SDM minyak sayur</li>
+            <li>1 batang serai</li>
+            <li>2 lembar daun salam</li>
+            <li>2 lemabr daun jeruk</li>
+            <li></li>
+        </ul>
+        <h1> Bumbu halus</h1>
+        <ul>
+            <li>5 siung bawah merah</li>
+            <li>3 siung bawang putih</li>
+            <li>4 butir kemiri</li>
+            <li>kunyit jahe</li>
+            <li> 2 sendok teh garam</li>
+        </ul>
+        <h1> Pelengkap</h1>
+            <p> Tauge, sohun, telur rebus<p></p>
+      </aside>
+    <p class="blog-description">
+      soto terdiri dari kuah ayam gurih dengan mie, seledri, dan bumbu rempah.
+      soto ayam menghadirkan cita rasa lezat dan bergizi. 
+     </p> <br>
+    
+    <h1>Cara pembuatan</h1><br>
+    
+    <p>
+        1. Didihkan air, rebus ayam dengan api kecil hingga daging ayam hampir lunak.<br>
+        2. Tumis bumbu halus bersama daun jeruk, daun salam, serai dan aduk hingga matang dan harum. Angkat.<br>
+        3. Masukkan ke dalam rebusan ayam. <br>
+        4. Rebus dengan api kecil hingga daging ayam lunak.<br>
+        5. Angkat ayam, tiriskan hingga agak kering.<br>
+        6. Goreng ayam sebentar hingga bagian luarnya kering. Tiriskan.<br>
+        7. Suwir daging ayam kasar-kasar.<br>
+        8. Susun ayam, suun, tauge dalam mangkuk saji.<br>
+        9. Tuangi kaldu panas.<br>
+        10. Sajikan dengan daun bawang, bawang goreng, sambal rawit dan jeruk nipis.
+     </p>
+  </div>
+</div>
+
+</body>
+<script>
+/* Buka sidebar*/
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Nutup sidebar */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</html>

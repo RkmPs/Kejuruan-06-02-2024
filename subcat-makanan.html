@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resep makanan</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+   
+    <nav>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="home.html"><h1>KuKuliner</h1></a>
+          <a href="list-resep.html">List Resep</a>
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+       
+        <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+        
+        <section>
+        
+            <div id="search-container">
+              <form action="">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+              </form>
+            </div>
+        </section>
+      </nav>
+
+      <main>
+        <div class="header">
+          <h2 class="title">List Resep</h2>
+          <p class="description">
+          Subcategory makanan
+          </p>
+        </div>
+
+        <div class="subcat" id="hover"> <!--container-->
+
+          <div class="foodCard">
+        <div class="foodCard-header">
+            <a href="sate.html">
+          <img
+            class="foodCard-img"
+            src="/Assets/blogSate.png"
+          /> </a>
+        </div>
+        <div class="blog-detail">
+             <a href="sate.html">
+          <h3 class="blog-title">
+              Sate ayam
+          </h3>
+          <p class="blog-description">
+            Sate ayam adalah hidangan populer dengan potongan daging ayam tusuk yang dipanggang,
+            Cocok untuk santap ringan atau jajanan jalanan.
+          </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="foodCard">
+        <div class="foodCard-header">
+            <a href="soto.html">
+          <img
+            class="foodCard-img"
+            src="/Assets/blogSoto.png"
+          /> </a>
+        </div>
+        <div class="blog-detail">
+             <a href="soto.html">
+          <h3 class="blog-title">
+              Soto Ayam
+          </h3>
+          <p class="blog-description">
+            terdiri dari kuah ayam gurih dengan mie, seledri, dan bumbu rempah.
+            soto ayam menghadirkan cita rasa lezat dan bergizi. 
+          </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="foodCard">
+        <div class="foodCard-header">
+            <a href="Soon.html">
+          <img
+            class="foodCard-img"
+            src="/Assets/blogKentang.png"
+          /> </a>
+        </div>
+        <div class="blog-detail">
+             <a href="Soon.html">
+          <h3 class="blog-title">
+              Sambal goreng Kentang
+          </h3>
+          <p class="blog-description">
+            disajikan dengan saus pedas dan bumbu khas. memberikan
+             kombinasi unik antara tekstur kentang yang lezat dan rasa pedas yang memikat.
+          </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="foodCard">
+        <div class="foodCard-header">
+            <a href="Soon.html">
+          <img
+            class="foodCard-img"
+            src="/Assets/blogGurame.png"
+          /> </a>
+        </div>
+        <div class="blog-detail">
+             <a href="Soon.html">
+          <h3 class="blog-title">
+              Ikan Gurame Bakar
+          </h3>
+          <p class="blog-description">
+            Kulit ikan yang renyah di luar dan daging yang lembut di dalamnya menciptakan kombinasi sempurna. 
+            Cocok dinikmati sebagai hidangan utama.
+          </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="foodCard" >
+        <div class="foodCard-header">
+            <a href="Soon.html">
+          <img
+            class="foodCard-img"
+            src="/Assets/blogSpaghetti.png"
+          /> </a>
+        </div>
+        <div class="blog-detail">
+             <a href="Soon.html">
+          <h3 class="blog-title">
+             Spaghetti Bolognese
+          </h3>
+          <p class="blog-description">
+            Saus Bolognese ini diolah dengan tomat, bawang,
+            daging cincang, dan rempah-rempah, memberikan cita rasa yang gurih dan lezat.
+          </p>
+          </a>
+        </div>
+      </div>
+      
+
+        </div>
+  </body>
+  <script>
+  /* Buka sidebar*/
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  /* Nutup sidebar */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>list resep</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+   
+    <nav>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="home.html"><h1>KuKuliner</h1></a>
+          <a href="list-resep.html">List Resep</a>
+          <a href="#">Services</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+       
+        <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+        
+        <section>
+        
+            <div id="search-container">
+              <form action="">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Search</button>
+              </form>
+            </div>
+        </section>
+      </nav>
+
+    <main>
+      <div class="header">
+        <h2 class="title">List Resep</h2>
+        <p class="description">
+        Category list resep dari makanan-makanan yang ada di blog kami
+        </p>
+      </div>
+      <div class="blog-section">
+        <div class="card">
+          <div class="card-header">
+            <img
+              class="card-img"
+              src="/Assets/blogMakanan.png"
+            />
+          </div>
+          <div class="blog-detail">
+            <h4 class="blog-title">Makanan</h4>
+            <p class="blog-description">
+                Makanan berat dapat mencakup berbagai jenis, seperti hidangan daging, ikan,
+                 sayuran, nasi, pasta, atau mie, yang kemudian 
+                 untuk menciptakan cita rasa yang khas 
+            </p>
+          </div>
+          <form class="readmore" id="hover" action="subcat-makanan.html">
+            <button type="submit">Baca lebih lengkap > </button>
+          </form>
+        </div>
+
+        <div class="card" >
+          <div class="card-header">
+            <img
+              class="card-img"
+              src="/Assets/blogMinuman.png"
+            />
+          </div>
+          <div class="blog-detail">
+            <h4 class="blog-title">
+                Minuman
+            </h4>
+            <p class="blog-description">
+                Olahan minuman juga mencakup minuman berbasis susu, smoothie,
+                 kopi, dan berbagai minuman dingin atau panas yang dihidangkan
+                  dengan tata cara yang estetis. <br>
+            </p>
+          </div>
+          <form class="readmore" id="hover" action="Soon.html">
+            <button type="submit">Baca lebih lengkap > </button>
+          </form>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img
+              class="card-img"
+              src="/Assets/blogCamilan.png"
+            />
+          </div>
+          <div class="blog-detail">
+            <h4 class="blog-title">Camilan</h4>
+            <p class="blog-description">
+                hidangan ringan yang nikmat dan cocok untuk mengisi waktu di antara makanan utama
+                Dari kue lembut,puding es krim, olahan buah buahan hingga dimsum dan cheesestick
+            </p>
+          </div>
+          <form class="readmore" id="hover" action="Soon.html">
+            <button type="submit">Baca lebih lengkap > </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script>
+    /* Buka sidebar*/
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Nutup sidebar */
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+</html>
